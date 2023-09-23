@@ -1,0 +1,65 @@
+ *{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: arial;
+ }
+ body {
+    background: url(img/major.jpg);
+    background-size:cover;
+    height: 100vh;
+    font-family: arial;
+
+ }
+
+ header.main {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-content: center;
+    position: fixed;
+    z-index: 99;
+    box-shadow: 0 0 10px #000;
+    background: rgba(0, 0, 0, 0, 5);
+    
+
+ }
+ i {
+   color: #fff;
+   cursor: pointer;
+}
+nav .div.form {
+   flex: 1;
+   position: relative;
+
+}
+
+ header ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px 15px;
+ }
+
+ header ul li a :hover {
+    border-bottom: 2px solid cadetblue;
+ }
+
+ /* .social-menu ul { 
+    position:absolute;
+    top: 50%;
+    right: 50%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+
+ }*/
+ p{
+   text-decoration: #fff;
+    text-align: display;
+
+ }
+ 
+ 
